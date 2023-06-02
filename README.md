@@ -9,10 +9,15 @@
 
 1. Установить библиотеку pybind11 с помощью pip
 2. Запустить команду:
+   
     python3 -m pybind11 --includes
+   
    Она выведет директории с исходными файлами библиотеки pybind11.
+   
    Пример вывода скрипта:
+
     I/usr/include/python3.10 -I/home/leoqay/second/lib/python3.10/site-packages/pybind11/include
+   
    Вывод необходимо скопировать в Makefile, а именно приравнять переменной PYBIND11_INCLUDES.
 
 
