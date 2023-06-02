@@ -21,5 +21,5 @@ model.fit(X, G, coefs)
 
 pred = model.predict(X)
 
-print(np.dot((G - pred[:, None]) ** 2, coefs))
+print(np.dot((G - pred[:, None]) ** 2, coefs).sum())
 
