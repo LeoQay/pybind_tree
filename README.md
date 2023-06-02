@@ -1,4 +1,4 @@
-# Tree Regressor with special loss wrapped with pybind11s
+# Tree Regressor with special loss wrapped with pybind11
 
 Реализация на языке C++ алгоритма решающего дерева с нестандартным функционалом качества.
 Решение обернуто в динамическую библиотеку для языка python с помощью библиотеки pybind11.
